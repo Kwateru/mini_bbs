@@ -10,6 +10,9 @@ include('db/connection.php');
 
 // 投票の集計
 include('function/get_votes.php');
+
+// 掲示板
+include('function/get_bbs.php');
 ?>
 
 <!DOCTYPE html>
@@ -75,6 +78,7 @@ include('function/get_votes.php');
                 <input type="text" name="comment" placeholder="コメントを書いてね！">
                 <input type="submit" value="投稿">
             </form>
+            <?php echo $commentList ?>
         </div>
 
         <div class="features">

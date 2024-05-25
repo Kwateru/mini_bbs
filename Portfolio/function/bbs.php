@@ -21,4 +21,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'  && !empty($_POST['comment'])) {
     }else{
         echo "コメントの文字数が足りない（10文字以上）";
     }
+}else{
+    echo "空文字は投稿できないよ。10文字以上入力してね。";
 }
