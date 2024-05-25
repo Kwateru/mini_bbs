@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `academy_db`.`comments`;
+CREATE TABLE `academy_db`.`comments` (
+    `id` INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    `comment` TEXT NOT NULL,
+    `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

@@ -70,6 +70,14 @@ include('function/get_votes.php');
         </div>
 
         <div class="features">
+            <h2>ミニ掲示板</h2>
+            <form action="function/bbs.php" method="post">
+                <input type="text" name="comment" placeholder="コメントを書いてね！">
+                <input type="submit" value="投稿">
+            </form>
+        </div>
+
+        <div class="features">
             <h2>能力</h2>
             <dl>
                 <div>
