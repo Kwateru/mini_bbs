@@ -78,7 +78,7 @@ include('function/get_bbs.php');
                 <input type="text" name="comment" placeholder="コメントを書いてね！">
                 <input type="submit" value="投稿">
             </form>
-            <?php echo $commentList ?>
+            <?php echo commentArray($comment); ?>
         </div>
 
         <div class="features">
