@@ -150,7 +150,7 @@ dt::after {
 -------------------------*/
 input[type="text"]{
     width: 50%;
-    /* height: 20px; */
+    height: 20px;
     padding: 10px;
 }
 
